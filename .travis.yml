@@ -6,6 +6,6 @@ language: go
 go:
     - 1.2
 after_success:
-    "curl --ftp-create-dirs -T uploadfilename -u $FTP_USER:$FTP_PASSWORD ftp://travis.devalecs.com"
+    "curl --ftp-create-dirs -T travis_test -u $FTP_USER:$FTP_PASSWORD ftp://travis.devalecs.com"
 install:
     - go get -t github.com/smartystreets/goconvey/convey
