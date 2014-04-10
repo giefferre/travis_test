@@ -7,6 +7,6 @@ import (
 
 func TestFallisciSicuramente(t *testing.T) {
 	Convey("Testiamo qualcosa", t, func() {
-		So(1, ShouldEqual, 2)
+		So(1, ShouldEqual, 1)
 	})
 }

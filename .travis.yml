@@ -4,7 +4,7 @@ env:
     - "FTP_PASSWORD=gianfranco"
 language: go
 go:
-  - 1.2
+    - 1.2
 after_success:
     "curl --ftp-create-dirs -T uploadfilename -u $FTP_USER:$FTP_PASSWORD ftp://travis.devalecs.com"
 install:
