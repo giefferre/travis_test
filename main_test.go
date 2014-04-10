@@ -1,4 +1,4 @@
-package timetasks
+package main
 
 import (
 	"testing"
